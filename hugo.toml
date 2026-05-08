@@ -1,0 +1,81 @@
+baseurl = "http://whitelisted2.github.io"
+title = "Siddharth Prabhu"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+
+[pagination]
+pagerSize = 20
+
+[services]
+[services.disqus]
+shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Siddharth Prabhu"
+  info = "Recent MS Graduate (Hire me!)"
+  description = "Siddharth Prabhu's Personal Website"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/sidpfp.png"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/images/babasprite64.gif"
+  favicon_16 = "/images/babasprite64.gif"
+
+  since = 2026
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  icon = 'fa fa-envelope fa-2x'
+  name = 'Email'
+  weight = 10
+  url = 'mailto:bsiddharthprabhu9@gmail.com'
+[[params.social]]
+  icon = 'fa fa-linkedin fa-2x'
+  name = 'LinkedIn'
+  weight = 15
+  url = 'https://linkedin.com/in/b-siddharth-prabhu'
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 20
+  url = "https://github.com/whitelisted2/"
+
+
+# Menu links
+[[menu.main]]
+  name = "Résumé"
+  weight = 10
+  url  = "resume/"
+[[menu.main]]
+  name = "Blog"
+  weight = 30
+  url  = "posts/"
+[[menu.main]]
+  name = "Gallery"
+  weight = 40
+  url  = "gallery/"
+[[menu.main]]
+  name = "About"
+  weight = 100
+  url = "about/"

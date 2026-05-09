@@ -21,7 +21,7 @@ style = 'gruvbox'
   avatarurl = "images/sidpfp.png"
   #gravatar = "bsiddharthprabhu9@gmail.com"
 
-  faviconSVG = "/img/favicon.svg"
+  faviconSVG = "/images/babasprite64.gif"
   favicon_32 = "/images/babasprite64.gif"
   favicon_16 = "/images/babasprite64.gif"
 

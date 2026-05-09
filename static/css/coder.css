@@ -3688,9 +3688,9 @@ figure {
     height: 3rem;
     font-size: 2rem;
     color: #000;
-    background-color: #e0e0e0;
-    border-radius: 0.2rem;
-    opacity: 0.5;
+    background-color: transparent;
+    border-radius: 0;
+    opacity: 1;
     transition: all 0.25s ease-in; }
     .float-container a:hover, .float-container a:focus {
       color: #1565c0;
@@ -3704,5 +3704,20 @@ figure {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); }
+
+/* Ensure dark-mode toggle (button or anchor) has no background or border */
+#dark-mode-toggle,
+.theme-toggle,
+.colorscheme-toggle,
+button#dark-mode-toggle,
+a#dark-mode-toggle {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
 
 /*# sourceMappingURL=coder.css.map */

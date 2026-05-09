@@ -1,7 +1,8 @@
 baseurl = "https://whitelisted2.github.io/"
 title = "Siddharth Prabhu"
 theme = "hugo-coder"
-publishDir = "public"
+
+publishDir = "build"
 languagecode = "en"
 defaultcontentlanguage = "en"
 relativeurls = true

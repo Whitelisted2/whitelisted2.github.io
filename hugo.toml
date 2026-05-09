@@ -9,10 +9,10 @@ relativeurls = true
 
 
 [markup.goldmark.renderer]
-unsafe = true
+  unsafe = true
 
 [markup.highlight]
-style = 'gruvbox'
+  style = 'gruvbox'
 
 [params]
   author = "Siddharth Prabhu"

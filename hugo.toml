@@ -18,7 +18,7 @@ style = 'gruvbox'
   info = "Recent MS Graduate (Hire me!)"
   description = "Siddharth Prabhu's Personal Website"
   keywords = "blog,developer,personal"
-  avatarurl = "images/sidpfp.png"
+  avatarurl = "/images/sidpfp.png"
   #gravatar = "bsiddharthprabhu9@gmail.com"
 
   faviconSVG = "/images/babasprite64.gif"
@@ -68,16 +68,16 @@ style = 'gruvbox'
 [[menu.main]]
   name = "Résumé"
   weight = 10
-  url  = "resume/"
+  url  = "/resume/"
 [[menu.main]]
   name = "Blog"
   weight = 30
-  url  = "posts/"
+  url  = "/posts/"
 [[menu.main]]
   name = "Gallery"
   weight = 40
-  url  = "gallery/"
+  url  = "/gallery/"
 [[menu.main]]
   name = "About"
   weight = 100
-  url = "about/"
+  url = "/about/"

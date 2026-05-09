@@ -1,9 +1,10 @@
-baseurl = "https://whitelisted2.github.io"
+baseurl = "https://whitelisted2.github.io/"
 title = "Siddharth Prabhu"
 theme = "hugo-coder"
 publishDir = "build"
 languagecode = "en"
 defaultcontentlanguage = "en"
+relativeurls = true
 
 
 [markup.goldmark.renderer]

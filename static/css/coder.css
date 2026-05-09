@@ -3662,12 +3662,17 @@ figure {
     appearance: none;
     background: transparent;
     border: 0;
+    box-shadow: none;
     color: #212121;
     cursor: pointer;
+    display: inline-block;
     font: inherit;
+    margin-left: 1rem;
+    margin-right: 1rem;
     margin: 0;
     padding: 0;
     line-height: 1;
+    vertical-align: middle;
     transition: color 0.2s ease-in; }
 
 .float-container {

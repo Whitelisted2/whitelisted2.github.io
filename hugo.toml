@@ -1,19 +1,16 @@
 baseurl = "http://whitelisted2.github.io"
 title = "Siddharth Prabhu"
 theme = "hugo-coder"
+publishDir = "build"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
 
-[pagination]
-pagerSize = 20
-
-[services]
-[services.disqus]
-shortname = "yourdiscussshortname"
+[markup.goldmark.renderer]
+unsafe = true
 
 [markup.highlight]
-style = "github-dark"
+style = 'gruvbox'
 
 [params]
   author = "Siddharth Prabhu"
@@ -21,7 +18,7 @@ style = "github-dark"
   description = "Siddharth Prabhu's Personal Website"
   keywords = "blog,developer,personal"
   avatarurl = "images/sidpfp.png"
-  #gravatar = "john.doe@example.com"
+  #gravatar = "bsiddharthprabhu9@gmail.com"
 
   faviconSVG = "/img/favicon.svg"
   favicon_32 = "/images/babasprite64.gif"
@@ -31,12 +28,16 @@ style = "github-dark"
 
   enableTwemoji = true
 
-  colorScheme = "auto"
+  colorScheme = "dark"
   hidecolorschemetoggle = false
 
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
   # customJS = ["js/custom.js"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [taxonomies]
   category = "categories"

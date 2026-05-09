@@ -18,7 +18,7 @@
   font-weight: 600;
   cursor: pointer;
   line-height: 1;
-  /* --webkit-appearance: none */
+  appearance: none
 }
 
 .navigation .theme-toggle:hover,

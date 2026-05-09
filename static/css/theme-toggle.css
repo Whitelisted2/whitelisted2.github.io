@@ -23,7 +23,7 @@
 .navigation .theme-toggle:hover,
 .navigation .theme-toggle:focus {
   color: #1565c0;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 @media only screen and (max-width: 768px) {

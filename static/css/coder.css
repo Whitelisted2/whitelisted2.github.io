@@ -3725,7 +3725,7 @@ figure {
       transform: translate(-50%, -50%); }
 
 /* Ensure dark-mode toggle (button or anchor) has no background or border */
-#dark-mode-toggle,
+/** #dark-mode-toggle,
 .theme-toggle,
 .colorscheme-toggle,
 button#dark-mode-toggle,
@@ -3737,6 +3737,6 @@ a#dark-mode-toggle {
   box-shadow: none !important;
   padding: 0 !important;
   margin: 0 !important;
-}
+} */
 
 /*# sourceMappingURL=coder.css.map */

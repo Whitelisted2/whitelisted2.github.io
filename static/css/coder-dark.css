@@ -120,7 +120,11 @@ body.colorscheme-dark {
       border-right: 0; } }
 
 body.colorscheme-dark .content .post .tags .tag {
-  background-color: #424242; }
+  background-color: #424242; 
+  &:hover {
+    text-decoration: underline;
+  }
+  }
   body.colorscheme-dark .content .post .tags .tag a {
     color: #dadada; }
   body.colorscheme-dark .content .post .tags .tag a:active {

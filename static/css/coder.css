@@ -3063,6 +3063,8 @@ a {
   } */
 
 p {
+  /* word-break: keep-all; */
+
   margin: 2rem 0 2rem 0; }
 
 h1,
@@ -3162,6 +3164,7 @@ pre {
   font-weight: 400;
   line-height: 2.6rem;
   overflow-x: auto;
+  /* word-break: keep-all; */
   margin: 2rem 0 2rem;
   padding: 1rem;
   border-radius: 1rem; }
@@ -3283,6 +3286,7 @@ figure {
   .content article p {
     text-align: justify;
     text-justify: auto;
+    /* word-break: keep-all; */
     hyphens: auto; }
   .content .post .post-title {
     margin-bottom: 0.75em; }
@@ -3299,7 +3303,11 @@ figure {
     padding: 0.3rem 0.6rem;
     background-color: #e0e0e0;
     border-radius: 0.6rem;
-    line-height: 1.4em; }
+    line-height: 1.4em; 
+    &:hover {
+      text-decoration: underline;
+    }
+  }
     .content .post .post-meta .tags .tag a {
       color: #212121; }
     .content .post .post-meta .tags .tag a:active {
@@ -3665,15 +3673,26 @@ figure {
     box-shadow: none;
     color: #212121;
     cursor: pointer;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     font: inherit;
-    margin-left: 1rem;
-    margin-right: 1rem;
     margin: 0;
-    padding: 0;
+    padding: 0.75rem;
     line-height: 1;
     vertical-align: middle;
-    transition: color 0.2s ease-in; }
+    transition: color 0.2s ease-in, transform 0.2s ease-in;
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    z-index: 1000; }
+    .footer #dark-mode-toggle:hover, .footer #dark-mode-toggle:focus {
+      transform: translateY(-1px); }
+    @media only screen and (max-width: 768px) {
+      .footer #dark-mode-toggle {
+        right: 1.2rem;
+        bottom: 1.2rem;
+        padding: 0.65rem; } }
 
 .float-container {
   bottom: 2rem;

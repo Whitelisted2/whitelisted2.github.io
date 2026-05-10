@@ -73,7 +73,7 @@ relativeurls = true
 [[menu.main]]
   name = "Blog"
   weight = 30
-  url  = "/posts/"
+  url  = "/blog/"
 [[menu.main]]
   name = "Gallery"
   weight = 40

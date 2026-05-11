@@ -7,4 +7,4 @@ description = "introspection zone"
 
 ---
 
-
+[Work in progress... Currently computing how to best arrange and narrate my non-technical interests.]

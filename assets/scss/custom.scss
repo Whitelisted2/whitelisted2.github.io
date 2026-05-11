@@ -1,0 +1,11 @@
+/* Keep footer dark-mode toggle fixed consistently across local and GitHub Pages builds. */
+.footer #dark-mode-toggle {
+  margin: 1.7rem 0;
+  font-size: 2.4rem;
+  line-height: inherit;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  left: auto;
+  z-index: 100;
+}

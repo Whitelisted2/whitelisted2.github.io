@@ -3924,8 +3924,12 @@ html {
   font-size: 60%;
 }
 
+:root {
+  --bg-color-dark: #01011f;
+}
+
 body {
-  color: #212121;
+  color: var(--bg-color-dark);
   background-color: #fafafa;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-size: 1.8em;
@@ -4295,11 +4299,11 @@ figure {
 }
 
 .content .post .post-meta .tags .tag a {
-  color: #212121;
+  color: var(--bg-color-dark);
 }
 
 .content .post .post-meta .tags .tag a:active {
-  color: #212121;
+  color: var(--bg-color-dark);
 }
 
 .content figure {
@@ -4360,7 +4364,7 @@ figure {
 .list ul li .title {
   font-size: 1.8rem;
   flex: 2;
-  color: #212121;
+  color: var(--bg-color-dark);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-weight: 700;
 }
@@ -4416,7 +4420,7 @@ figure {
 
 .centered .about ul li a,
 .footer #dark-mode-toggle {
-  color: #212121;
+  color: var(--bg-color-dark);
   text-transform: uppercase;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -4589,7 +4593,7 @@ figure {
   font-size: 1.7rem;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, "游ゴシック", "PingFang SC", STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
   font-weight: 600;
-  color: #212121;
+  color: var(--bg-color-dark);
 }
 
 .navigation a:hover,
@@ -4659,7 +4663,7 @@ figure {
 
 @media only screen and (max-width: 768px) {
   .navigation .navigation-list .menu-separator {
-    border-top: 2px solid #212121;
+    border-top: 2px solid var(--bg-color-dark);
     margin: 0 8rem;
   }
 
@@ -4713,7 +4717,7 @@ figure {
 }
 
 .navigation i {
-  color: #212121;
+  color: var(--bg-color-dark);
   cursor: pointer;
 }
 
@@ -4837,11 +4841,11 @@ figure {
 }
 
 .taxonomy .taxonomy-element a {
-  color: #212121;
+  color: var(--bg-color-dark);
 }
 
 .taxonomy .taxonomy-element a:active {
-  color: #212121;
+  color: var(--bg-color-dark);
 }
 
 .footer {
@@ -4872,7 +4876,7 @@ figure {
   background: transparent;
   border: 0;
   box-shadow: none;
-  color: #212121;
+  color: var(--bg-color-dark);
   cursor: pointer;
   display: inline-flex;
   align-items: center;

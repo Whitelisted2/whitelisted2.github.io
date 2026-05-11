@@ -1,11 +1,48 @@
 /* Keep footer dark-mode toggle fixed consistently across local and GitHub Pages builds. */
 .footer #dark-mode-toggle {
   margin: 1.7rem 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   line-height: inherit;
   position: fixed;
-  right: 2rem;
+//   right: 2rem;
   bottom: 2rem;
-  left: auto;
+  left: 2rem;
+  border-radius: 0;
   z-index: 100;
+  color: #212121;
+  background-color: transparent;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+  &:hover,
+  &:focus {
+    color: #1565c0;
+    background-color: #e0e0e0;
+  }
+}
+
+/* Dark mode styling */
+body.colorscheme-dark .footer #dark-mode-toggle {
+  color: #dadada;
+
+  &:hover,
+  &:focus {
+    color: #42a5f5;
+    background-color: #424242;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body.colorscheme-auto .footer #dark-mode-toggle {
+    color: #dadada;
+
+    &:hover,
+    &:focus {
+      color: #42a5f5;
+      background-color: #424242;
+    }
+  }
 }

@@ -1,6 +1,10 @@
 +++ 
 title = ">whoami"
-description = "I will get to this" 
+description = "introspection zone" 
 +++
 
-sample text
+<span style="font-family: 'Courier New', Courier, monospace;"> <b>siddharth </b>(per my terminal output) </span>
+
+---
+
+

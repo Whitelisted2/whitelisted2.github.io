@@ -16,7 +16,7 @@ For my latest résumé PDF, click [here](https://drive.google.com/file/d/1R6UxNf
 ### Technologies and Skills
 I've worked with major modern programming languages (Python, C, C++, Java, SQL) throughout my academic journey, related frameworks (P4, React, FastAPI) and version control/documentation (Git, Latex, Microsoft Office, Google Workspace). 
 
-Besides this, I've also worked on projects related to threat modeling and risk assessments. I'm interested in cybersecurity and resilience at all levels - at the infrastructure/organization level, at the system level, and at the social and personal level.
+Besides this, I've also worked on projects related to threat modeling and risk assessments. I'm interested in cybersecurity and resilience at all levels - at the infrastructure/enterprise-level, at the system/host-level, at the social level, and at the personal, cyberpsychological level.
 
 
 

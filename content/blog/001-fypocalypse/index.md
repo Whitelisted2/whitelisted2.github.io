@@ -8,7 +8,7 @@ tags = ['cyberpsychology']
 ---
 I wrote a term paper called 'Brainrot and the FYPocalypse' during my final semester at Georgia Tech. This is a fast-evolving space online, and research (let alone industry/policymaking) is still playing catch-up with social media users to understand its full depth and impact. I can't think of many more examples of something becoming so ubiquitous and accessible with such speed before being critically analyzed or guardrailed. Asbestos? Asbestos. (jk. fun fact: Asbestos guardrails still aren't well-implemented around the world(!), Veritasium has a great video on the topic.)
 
-In any case, I thought I'd pull some ideas from that term paper and contextualize some of my analyses and extrapolations in a ready-to-consume way for the non-academics among us (among us). I will try my best to keep this much more structured than my 4(?) blogging attempts from years past (Weebly, Wordpress, Substack,...).
+In any case, I thought I'd pull some ideas from that term paper and contextualize some of my analyses and extrapolations in a way that is palatable and bite-sized for the non-academics among us (ඞ). I will try my best to keep this much more structured than my 4(?) blogging attempts from years past (Weebly, Wordpress, Substack,...).
 
 <i>Brainrot</i> was Oxford University Press’ word of the year in 2024, and is defined in the Oxford English Dictionary (2025) as “A perceived loss of intelligence or critical thinking skills, esp. (in later use) as attributed to the overconsumption of unchallenging or inane content or material.” In recent times, the term has been associated with the overconsumption of such content posted online, on social media platforms. More colloquially, we use the term to describe the content itself.
 
@@ -34,3 +34,7 @@ Personally, I may not entirely follow the kinds of brainrot that kids these days
 
 There are many more viewpoints about brainrot - mostly negative - and you can probably develop them from base principles yourself (by thinking about your own social media engagement), which I thought are a tad less interesting than these ones. In true academic fashion, this is left as an exercise to the reader.
 
+Here are links to some media I recommend based on this post:
+- Veritasium's [video](https://youtu.be/cMx139eTxoc?si=TS2WbS32ay2bUgXV) about asbestos issues
+- My [term paper](https://drive.google.com/file/d/1gjBcRlRQezTulTPC1Q474anYizCc7wO9/view?usp=sharing) for CS6268 Psychology of Cybersecurity, all citations included
+- [Markiplier](https://youtu.be/HMELmIFNItc?si=l03sKbgmpG9fCYqW) deeming a cat to be Portuguese
